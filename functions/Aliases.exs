@@ -1,0 +1,6 @@
+IO.puts(is_atom(String))
+IO.puts(to_string(String))
+IO.puts(:"Elixir.String" == String)
+IO.inspect(List.flatten([1, [2], 3]))
+IO.inspect(:"Elixir.List".flatten([1, [2], 3]))
+IO.inspect(:lists.flatten([1, [2], 3]))
